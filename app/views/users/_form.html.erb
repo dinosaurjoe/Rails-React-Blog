@@ -35,7 +35,7 @@
             <%= f.text_field :color, class: "form-control", placeholder: "Enter Color" %>
           </div>
           <div class="col-sm-6">
-            <%= react_component('Colorpicker', { color: '#fff', selector: 'user_color' } )%>
+            <%= react_component('Colorpicker', { color: prefered_color, selector: 'user_color' } )%>
           </div>
       </div>
       <div class="form-group">
